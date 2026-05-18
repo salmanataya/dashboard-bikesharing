@@ -91,8 +91,8 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    df_hour = pd.read_csv("hour_full.csv")
-    df_day = pd.read_csv("day.csv")
+    df_hour = pd.read_csv("dashboard/hour_full.csv")
+    df_day = pd.read_csv("dashboard/day.csv")
 
     df_hour["dteday"] = pd.to_datetime(df_hour["dteday"])
     df_day["dteday"] = pd.to_datetime(df_day["dteday"])
