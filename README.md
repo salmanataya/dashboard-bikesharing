@@ -17,14 +17,23 @@ Dashboard interaktif dibuat menggunakan Streamlit untuk mempermudah eksplorasi d
 ## Struktur Direktori
 
 submission
+
 ├── dashboard
+
 │   ├── dashboard.py
+
 │   ├── day.csv
-│   └── hour.csv
+
+│   └── hour_full.csv
+
 ├── data
+
 │   ├── day.csv
+
 │   └── hour.csv
+
 ├── notebook.ipynb
+
 ├── README.md
 └── requirements.txt
 
